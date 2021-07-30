@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+	background-color: hsl(257, 40%, 49%);
+	background-image:url('images/bg-desktop.svg');
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+	
+}
+
+.col-2{
+	padding: 30px;
+	margin-top: 140px;
+	color: white;
+}
+
+.text{
+	font-weight:400;
+	font-size: 17px;
+}
+
+.heading{
+	padding-bottom:20px;
+	font-weight: 600;
+}
+
+button{
+	margin-top: 50px;
+	font-size: 20px;
+	padding: 15px;
+	width: 175px;
+	border-radius: 50px;
+	color: hsl(257, 40%, 49%);
+	box-shadow: black 130px;
+}
+
+button:hover{
+	background-color: hsl(300, 69%, 71%);
+	color: white;
+	cursor: pointer;
+}
+
+.illustration{
+	padding: 30px;
+	margin: 10px;
+}
+
+@media scren and (min-width: 760px) {
+  body {
+    background-color: white;
+	background-image:url('design/mobile-design.jpg');
+  }
+}
+
