@@ -24,11 +24,13 @@ body{
 .text{
 	font-weight:400;
 	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .heading{
 	padding-bottom:20px;
 	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
 }
 
 button{
@@ -38,7 +40,7 @@ button{
 	width: 175px;
 	border-radius: 50px;
 	color: hsl(257, 40%, 49%);
-	box-shadow: black 130px;
+
 }
 
 button:hover{
