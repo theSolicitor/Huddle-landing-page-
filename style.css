@@ -49,15 +49,25 @@ button:hover{
 	cursor: pointer;
 }
 
+.social{
+	padding: 15px;
+	padding-top: 90px;
+	padding-left: 250px;
+	justify-content: right;
+
+}
+
 .illustration{
 	padding: 30px;
 	margin: 10px;
 }
 
-@media scren and (min-width: 760px) {
-  body {
-    background-color: white;
-	background-image:url('design/mobile-design.jpg');
+@media  (max-width: 500px) {
+  .container {
+    display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+	
   }
 }
 
