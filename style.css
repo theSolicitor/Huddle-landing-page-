@@ -54,7 +54,15 @@ button:hover{
 	padding-top: 90px;
 	padding-left: 250px;
 	justify-content: right;
+}
 
+.fab{
+	padding: 10px;
+}
+
+.fab:hover{
+	color: hsl(300, 69%, 71%);
+	cursor: pointer;
 }
 
 .illustration{
